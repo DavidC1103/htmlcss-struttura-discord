@@ -60,6 +60,7 @@ nav ul li{
 main{
   justify-content: center;
   width: 100%;
+  margin-bottom: 30px;
 
 }
 
@@ -94,6 +95,17 @@ main div.blue-pink1{
 
 
 .green{
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
 
-  
+}
+
+.green-box{
+  background-color: green;
+  width: 70%;
+  height: 90%;
+
 }
