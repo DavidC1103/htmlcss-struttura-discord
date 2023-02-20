@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+header{
+  background-color: cadetblue;
+  padding: 20px;
+  
+}
+
+header .menu{
+  display: flex;
+  justify-content: space-between ;
+  background-color: darkorange;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  border: 3px dotted black;
+  padding: 10px;
+
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+nav ul li{
+  margin-right: 5px;
+}
+
+.jumbotron{
+  background-color: blue;
+  height: 400px;
+
+}
+
+.jumbotron .sottojumbotron{
+  background-color: fuchsia;
+  width: 60%;
+  height: 95%; 
+  margin: 0 auto;
+  align-items: center;
+}
