@@ -8,8 +8,11 @@
 
 
 header{
-  background-color: cadetblue;
-  padding: 20px;
+  background-color: rgb(116, 202, 252);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  
   
 }
 
@@ -17,12 +20,10 @@ header .menu{
   display: flex;
   justify-content: space-between ;
   background-color: darkorange;
-  width: 50%;
-  margin: 0 auto;
+  width: 70%;
   align-items: center;
   border: 3px dotted black;
-  padding: 10px;
-
+  padding: 0.5rem;
 }
 
 nav ul{
@@ -34,16 +35,65 @@ nav ul li{
   margin-right: 5px;
 }
 
+
+
 .jumbotron{
   background-color: blue;
   height: 400px;
-
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid  rgb(116, 202, 252);
 }
 
 .jumbotron .sottojumbotron{
   background-color: fuchsia;
-  width: 60%;
-  height: 95%; 
-  margin: 0 auto;
+  width: 54%;
+  height: 300px; 
+}
+
+
+
+
+
+main{
+  justify-content: center;
+  width: 100%;
+
+}
+
+main div.blue-pink1{
+  height: 450px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.blue-pink2{
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.blue{
+  display: flex;
+  background-color: dodgerblue;
+  height: 70%;
+  width: 40%;
+}
+
+.pink{
+  display: flex;
+  background-color: pink;
+  height: 70%;
+  width: 25%;
+}
+
+
+.green{
+
+  
 }
