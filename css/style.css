@@ -13,17 +13,16 @@ header{
   justify-content: center;
   padding: 1rem;
   
-  
 }
 
-header .menu{
+.menu{
   display: flex;
   justify-content: space-between ;
   background-color: darkorange;
   width: 70%;
   align-items: center;
-  border: 3px dotted black;
   padding: 0.5rem;
+  border: 2px dotted black;
 }
 
 nav ul{
@@ -51,6 +50,7 @@ nav ul li{
   background-color: fuchsia;
   width: 54%;
   height: 300px; 
+  border: 2px dotted black;
 }
 
 
@@ -82,6 +82,7 @@ main div.blue-pink1{
   background-color: dodgerblue;
   height: 70%;
   width: 40%;
+  border: 2px dotted black;
 }
 
 .pink{
@@ -89,6 +90,7 @@ main div.blue-pink1{
   background-color: pink;
   height: 70%;
   width: 25%;
+  border: 2px dotted black;
 }
 
 
@@ -104,6 +106,7 @@ main div.blue-pink1{
   background-color: green;
   width: 70%;
   height: 90%;
+  border: 2px dotted black;
 }
 
 
@@ -112,7 +115,7 @@ footer {
   display: flex;
   align-items:  center;
   background-color: rgb(34, 34, 34);
-  height: 800px;
+  height: 750px;
   flex-direction: column;
 }
 
@@ -121,6 +124,7 @@ footer {
   display: flex;
   height: 80%;
   margin-top: 10px;
+  border: 2px dotted black;
 }
 
 
@@ -139,5 +143,20 @@ hr{
   color: lightgrey;
   width: 100%;
   margin: 2rem 0;
+}
 
+
+.end{
+  background-color: aquamarine;
+  width: 70%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.end div{
+  background-color: palevioletred;
+  padding: 0.5rem ;
+  border: 2px dotted black;
 }
